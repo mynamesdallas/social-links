@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "Inter";
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "Inter-Bold";
+    src: url(assets/fonts/static/Inter-Bold.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "Inter-SemiBold";
+    src: url(assets/fonts/static/Inter-SemiBold.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url(assets/fonts/static/Inter-Regular.ttf) format(truetype);
+}
+
+* {
+    font-size: 16px;
+    font-family: "Inter";
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1440px;
+    border-radius: 7px;
+    width: 17rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.avatar {
+    border-radius: 100px;
+    margin-top: 2rem;
+    height: 4rem;
+}
+
+.name {
+    margin-bottom: 0;
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter-Bold";
+    font-size: 1.2rem;
+}
+
+.location {
+    margin-top: 0;
+    margin-bottom: .25em;
+    color: hsl(75, 94%, 57%);
+    font-family: "Inter-Regular";
+    font-size: .75rem;
+}
+
+p {
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter-Regular";
+    font-size: .75rem;
+}
+
+ul {
+    padding-left: 0;
+    margin-left: 0;
+    width: 75%;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: .75rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: 7px;
+    text-align: center;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter-SemiBold";
+    font-size: .75rem;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+ul li:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+ul li:focus-visible {
+    background-color: blue;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+
+.attribution a:hover {
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution a:visited {
+    color: purple;
+}
